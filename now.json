@@ -6,8 +6,6 @@
   "routes": [
     { "src": "/api/graphql", "dest": "https://charity-base-api-graphql.now.sh" },
     { "src": "/auth/graphql", "dest": "https://charity-base-auth-graphql.now.sh" },
-    { "src": "/api/v4(.*)", "dest": "https://charity-base-api-v4.now.sh" },
-    { "src": "/docs/v4/(.*)", "dest": "https://charity-base-docs-v4.now.sh" },
     { "src": "^/(.*)", "dest": "https://charity-base-web.now.sh" }
   ]
 }
