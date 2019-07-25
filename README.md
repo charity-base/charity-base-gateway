@@ -5,7 +5,7 @@ There are multiple CharityBase services: a GraphQL API, a legacy REST API, an au
 
 ```
  +-------+             +--------
- |Web App+---+     +---+Docs v4|
+ |Web App+---+     +---+Docs v4|-[Deprecated]
  +-------+   |     |   +-------+
              |     |
       +------+-----+-----+
@@ -13,7 +13,7 @@ There are multiple CharityBase services: a GraphQL API, a legacy REST API, an au
       +-----+---+---+----+
             |   |   |
 +--------+  |   |   |  +-----------+
-|Auth API+--+   |   +--+REST API v4|
+|Auth API+--+   |   +--+REST API v4|-[Deprecated]
 +--------+      |      +-----------+
           +-----+-----+
           |GraphQL API|
